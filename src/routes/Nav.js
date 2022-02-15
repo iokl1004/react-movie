@@ -18,7 +18,7 @@ function Nav() {
         <div>
             <nav className={styles.container}>
                 <div className={styles.title}>
-                    <a href="/">
+                    <a href="/react-movie">
                         <strong>POPFLEX</strong>
                     </a>
                 </div>

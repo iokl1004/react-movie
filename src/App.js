@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route path="/page/:genres/:num" element={<Genres />} />
           <Route path="/movie/:id" element={<Detail />} />
-          <Route path="/" element={<Home />} />
+          <Route path={process.env.PUBLIC_URL + "/"} element={<Home />} />
         </Routes>
       </Router>
     </RecoilRoot>
