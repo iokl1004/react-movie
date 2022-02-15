@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import styles from "./Detail.module.css";
+import Loading from "../components/Loading";
 
 function Detail() {
     const [moviedata, setMoviedata] = useState([]);
@@ -22,7 +23,7 @@ function Detail() {
     return (
         <div>
             {loading ? (
-                <img className={styles.loading} src="/Loading.gif" />
+                <Loading />
             ) : (
                 <div>
                     <img className={styles.bg} src={moviedata.background_image_original} />
