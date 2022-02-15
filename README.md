@@ -1,5 +1,10 @@
 니코쌤과 함께 만든 Movie App ( ReactJS-Movie-nomadcoders ) 프로젝트 완성본에서 내가 추가로 CSS도 변경해보고 기능들도 추가를 하였다!
 
+
+프로젝트 산출물을 보고싶다면?! 아래 링크를 참조하세요!
+
+
+https://iokl1004.github.io/react-movie/
 * * *
 2022-02-14(월)
 
