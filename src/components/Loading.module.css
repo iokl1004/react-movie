@@ -1,13 +1,13 @@
-  /* 로딩 이미지, 현재는 로딩 이미지로 불러옴 */
-  .loading-div {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
+.loader {
+  width: 100%;
+  height: calc(100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;  
+}
 
-  .loading {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin:-150px 0 0 -150px;
-  }
+.loader strong {
+  font-size: 32px;
+  color: red;
+}
